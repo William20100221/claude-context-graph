@@ -1,0 +1,14 @@
+{
+  "name": "claude-context-graph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tests for the context-graph Claude Code plugin; the plugin itself is installed through /plugin.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

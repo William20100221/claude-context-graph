@@ -1,0 +1,14 @@
+{
+  "name": "claude-context-graph",
+  "owner": {
+    "name": "William20100221"
+  },
+  "plugins": [
+    {
+      "name": "context-graph",
+      "source": "./",
+      "description": "Memory graph of past conversations for Claude Code: each session starts with a short map of earlier decisions, each prompt gets the few matching topics, and Claude recalls exact earlier turns on demand instead of re-reading or re-explaining them.",
+      "version": "0.1.0"
+    }
+  ]
+}
